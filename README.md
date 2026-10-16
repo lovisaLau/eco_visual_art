@@ -1,4 +1,4 @@
-# 🌟 Eco Visual — Instalación Interactiva de Arte Generativo y Audio-Reactivuidad
+# 🌟 Eco Visual — Instalación Interactiva de Arte Generativo Sonoro
 
 **Eco Visual** es una instalación artística multimedia interactiva desarrollada en Python. El sistema captura en tiempo real la voz del público a través del micrófono y la traduce dinámicamente en visuales generativos de alta fidelidad estética (estilo neón, 60 FPS estables), ofreciendo una experiencia inmersiva.
 
@@ -32,20 +32,19 @@
 El código fuente está modularizado bajo un diseño orientado a objetos riguroso, garantizando escalabilidad y buenas prácticas de ingeniería de software:
 
 
-eco_visual_arte/
-│
-├── src/
-│   ├── main.py             # Punto de entrada minimalista (Bootstrap)
-│   ├── app.py              # Clase principal que encapsula el estado y el bucle de renderizado (60 FPS)
-│   ├── audio_manager.py    # Gestión del flujo de audio y cálculo RMS
-│   ├── ui_manager.py       # Renderizado de la interfaz gráfica y botones 
-│   ├── input_handler.py    # Procesamiento de eventos de teclado y clics de interfaz
-│   ├── style_spectral.py   # Lógica del Estilo 1 (Onda Espectral & Estrellas)
-│   ├── style_matrix.py     # Lógica del Estilo 2 (Lluvia Matrix)
-│   └── style_eq.py         # Lógica del Estilo 3 (Ecualizador Neón 3D)
-│
-├── preview.jpg             # Imagen de vista previa de la instalación
-└── README.md               # Documentación del proyecto
+eco_visual_arte:
+  src
+    main.py             # Punto de entrada minimalista (Bootstrap)
+    app.py              # Clase principal que encapsula el estado y el bucle de renderizado (60 FPS)
+    audio_manager.py    # Gestión del flujo de audio y cálculo RMS
+    ui_manager.py       # Renderizado de la interfaz gráfica y botones 
+    input_handler.py    # Procesamiento de eventos de teclado y clics de interfaz
+    style_spectral.py   # Lógica del Estilo 1 (Onda Espectral & Estrellas)
+    style_matrix.py     # Lógica del Estilo 2 (Lluvia Matrix)
+    style_eq.py         # Lógica del Estilo 3 (Ecualizador Neón 3D)
+
+  preview.jpg             # Imagen de vista previa de la instalación
+  README.md               # Documentación del proyecto
 
 
 🚀 Guía de Instalación y Ejecución
