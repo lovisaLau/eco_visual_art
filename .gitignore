@@ -1,0 +1,19 @@
+# Python bytecode y caché
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales (por si llegas a crear uno luego)
+venv/
+env/
+ENV/
+
+# Archivos de configuración de editores (VS Code / PyCharm)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
